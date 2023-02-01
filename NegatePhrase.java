@@ -1,12 +1,12 @@
 public class NegatePhrase {
     public static void main(String[] args) {
-        String negated;
+        String negate;
         if (args[0].indexOf("not") == 0) {
-            negated = args[0];
+            negate = args[0];
         } else {
-            negated = "not " + args[0];
+            negate = "not " + args[0];
         }
-        System.out.println(negated);
+        System.out.println(negate);
     }
 }
 
